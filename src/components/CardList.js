@@ -12,7 +12,7 @@ const CardList = ({objects})=>{
                                         name={objects[i].name} 
                                         email={objects[i].email}/>
                         })
-                    }; 
+                    } 
                 </div>
     );
 }
